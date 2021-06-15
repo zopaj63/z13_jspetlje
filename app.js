@@ -5,11 +5,11 @@ console.log(fullName);
 
 /*
 var x = 2;
-var z = 2;
-if (x === 2) {
+var z = x;
+if (z === 2) {
     console.log(y);
-    else {
-        console.log(5);
+else {
+    console.log(5);
     }
 }
 */
