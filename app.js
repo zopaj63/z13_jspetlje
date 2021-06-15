@@ -1,5 +1,5 @@
-firstName = "Zoran";
-lastName = "Pajnic";
+firstName = "Božica";
+lastName = "Jakas";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 
