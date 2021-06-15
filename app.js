@@ -3,10 +3,11 @@ lastName = "Jakas";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 
+//krivo:
 var x = 2;
 var z = x;
 if (z === 2) {
-    console.log("y");
+    console.log(y);
 }
 else {
     console.log(5);
@@ -19,4 +20,12 @@ for (i = 1; i <= 20; i++) {
     else {
         console.log("Broj " + i + " je neparan");
     }
+}
+
+//dobro:
+var x;
+if (z === 2) {
+    x = y;
+} else {
+    x = 5;
 }
