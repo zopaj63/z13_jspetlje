@@ -3,6 +3,9 @@ lastName = "Jakas";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 
+
+var x = z === 2 ? y : 5;
+
 //krivo:
 var x = 2;
 var z = x;
@@ -20,6 +23,7 @@ if (z === 2) {
 } else {
     x = 5;
 }
+
 
 for (i = 1; i <= 20; i++) {
     if (i % 2 === 0) {
