@@ -13,6 +13,14 @@ else {
     console.log(5);
 }
 
+//dobro:
+var x;
+if (z === 2) {
+    x = y;
+} else {
+    x = 5;
+}
+
 for (i = 1; i <= 20; i++) {
     if (i % 2 === 0) {
         console.log("Broj " + i + " je paran");
@@ -20,12 +28,4 @@ for (i = 1; i <= 20; i++) {
     else {
         console.log("Broj " + i + " je neparan");
     }
-}
-
-//dobro:
-var x;
-if (z === 2) {
-    x = y;
-} else {
-    x = 5;
 }
